@@ -1,0 +1,3275 @@
+{
+    "report_data_sources": {
+        "Bcftools": {
+            "stats": {
+                "NA07000": "/scratch/9545b926cfc94c6bb4651c45679bcaca/0/stats/vcfstats.out"
+            }
+        },
+        "Samtools": {
+            "stats": {
+                "NA07000": "/scratch/9545b926cfc94c6bb4651c45679bcaca/0/stats/NA07000.bamstats.out"
+            }
+        },
+        "FastQC": {
+            "all_sections": {
+                "NA07000": "/scratch/9545b926cfc94c6bb4651c45679bcaca/0/stats/NA07000_fastqc.zip"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "NA07000": {
+                "number_of_samples": 1.0,
+                "number_of_records": 12414724.0,
+                "number_of_no-ALTs": 6877473.0,
+                "number_of_SNPs": 3466189.0,
+                "number_of_MNPs": 60278.0,
+                "number_of_indels": 515976.0,
+                "number_of_others": 1501504.0,
+                "number_of_multiallelic_sites": 19464.0,
+                "number_of_multiallelic_SNP_sites": 981.0,
+                "ts": 2353555.0,
+                "tv": 1087762.0,
+                "tstv": 2.16,
+                "ts_1st_ALT": 2351994.0,
+                "tv_1st_ALT": 1086625.0,
+                "tstv_1st_ALT": 2.16,
+                "substitution_type_A>C": 138969.0,
+                "substitution_type_A>G": 580558.0,
+                "substitution_type_A>T": 115231.0,
+                "substitution_type_C>A": 142100.0,
+                "substitution_type_C>G": 147519.0,
+                "substitution_type_C>T": 594887.0,
+                "substitution_type_G>A": 595209.0,
+                "substitution_type_G>C": 148114.0,
+                "substitution_type_G>T": 142787.0,
+                "substitution_type_T>A": 114585.0,
+                "substitution_type_T>C": 582901.0,
+                "substitution_type_T>G": 138457.0
+            }
+        },
+        {
+            "NA07000": {
+                "raw_total_sequences": 326730415.0,
+                "filtered_sequences": 13104278.0,
+                "sequences": 313626137.0,
+                "is_sorted": 1.0,
+                "1st_fragments": 156810469.0,
+                "last_fragments": 156815668.0,
+                "reads_mapped": 312617690.0,
+                "reads_mapped_and_paired": 311951962.0,
+                "reads_unmapped": 1008447.0,
+                "reads_properly_paired": 309526354.0,
+                "reads_paired": 313626137.0,
+                "reads_duplicated": 0.0,
+                "reads_MQ0": 14786196.0,
+                "reads_QC_failed": 0.0,
+                "non-primary_alignments": 0.0,
+                "total_length": 31362613700.0,
+                "bases_mapped": 31261769000.0,
+                "bases_mapped_(cigar)": 31171095150.0,
+                "bases_trimmed": 0.0,
+                "bases_duplicated": 0.0,
+                "mismatches": 165192964.0,
+                "error_rate": 0.005299556,
+                "average_length": 100.0,
+                "maximum_length": 100.0,
+                "average_quality": 36.1,
+                "insert_size_average": 413.3,
+                "insert_size_standard_deviation": 88.7,
+                "inward_oriented_pairs": 154956177.0,
+                "outward_oriented_pairs": 204383.0,
+                "pairs_with_other_orientation": 285301.0,
+                "pairs_on_different_chromosomes": 528708.0,
+                "reads_mapped_percent": 95.68062097922534,
+                "reads_mapped_and_paired_percent": 95.47686645579047,
+                "reads_unmapped_percent": 0.3086480332723233,
+                "reads_properly_paired_percent": 94.73447827010534,
+                "reads_paired_percent": 95.98926901249766,
+                "reads_duplicated_percent": 0.0,
+                "reads_MQ0_percent": 4.525503387861825,
+                "reads_QC_failed_percent": 0.0
+            }
+        },
+        {
+            "NA07000": {
+                "percent_gc": 41.0,
+                "avg_sequence_length": 100.0,
+                "total_sequences": 326730415.0,
+                "percent_duplicates": 13.951952313826482,
+                "percent_fails": 0.0
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "number_of_records": {
+                "title": "Vars",
+                "description": "Variations total",
+                "min": 0,
+                "format": "{:,.0f}",
+                "namespace": "Bcftools Stats",
+                "rid": "mqc-generalstats-bcftools_stats-number_of_records",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 12414724.0,
+                "dmin": 0.0
+            },
+            "number_of_SNPs": {
+                "title": "SNP",
+                "description": "Variation SNPs",
+                "min": 0,
+                "format": "{:,.0f}",
+                "namespace": "Bcftools Stats",
+                "rid": "mqc-generalstats-bcftools_stats-number_of_SNPs",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 3466189.0,
+                "dmin": 0.0
+            },
+            "number_of_indels": {
+                "title": "Indel",
+                "description": "Variation Insertions/Deletions",
+                "min": 0,
+                "format": "{:,.0f}",
+                "namespace": "Bcftools Stats",
+                "rid": "mqc-generalstats-bcftools_stats-number_of_indels",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 515976.0,
+                "dmin": 0.0
+            },
+            "tstv": {
+                "title": "Ts/Tv",
+                "description": "Variant SNP transition / transversion ratio",
+                "min": 0,
+                "format": "{:,.2f}",
+                "namespace": "Bcftools Stats",
+                "rid": "mqc-generalstats-bcftools_stats-tstv",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 2.16,
+                "dmin": 0.0
+            },
+            "number_of_MNPs": {
+                "title": "MNP",
+                "description": "Variation multinucleotide polymorphisms",
+                "min": 0,
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "Bcftools Stats",
+                "rid": "mqc-generalstats-bcftools_stats-number_of_MNPs",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 60278.0,
+                "dmin": 0.0
+            }
+        },
+        {
+            "error_rate": {
+                "title": "Error rate",
+                "description": "Error rate: mismatches (NM) / bases mapped (CIGAR)",
+                "min": 0,
+                "max": 100,
+                "suffix": "%",
+                "scale": "OrRd",
+                "format": "{:,.2f}",
+                "modify": 100.0,
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-error_rate",
+                "colour": "77,175,74",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "non-primary_alignments": {
+                "title": "M Non-Primary",
+                "description": "Non-primary alignments (millions)",
+                "min": 0,
+                "scale": "PuBu",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-non_primary_alignments",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 326.730415,
+                "dmin": 0.0
+            },
+            "reads_mapped": {
+                "title": "M Reads Mapped",
+                "description": "Reads Mapped in the bam file (millions)",
+                "min": 0,
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-reads_mapped",
+                "scale": "GnBu",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 326.730415,
+                "dmin": 0.0
+            },
+            "reads_mapped_percent": {
+                "title": "% Mapped",
+                "description": "% Mapped Reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn",
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-reads_mapped_percent",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "reads_properly_paired_percent": {
+                "title": "% Proper Pairs",
+                "description": "% Properly Paired Reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn",
+                "hidden": false,
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-reads_properly_paired_percent",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "reads_MQ0_percent": {
+                "title": "% MapQ 0 Reads",
+                "description": "% of Reads that are Ambiguously Placed (MapQ=0)",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "OrRd",
+                "hidden": true,
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-reads_MQ0_percent",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "raw_total_sequences": {
+                "title": "M Total seqs",
+                "description": "Total sequences in the bam file (millions)",
+                "min": 0,
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-raw_total_sequences",
+                "scale": "GnBu",
+                "format": "{:,.1f}",
+                "colour": "77,175,74",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 326.730415,
+                "dmin": 0.0
+            }
+        },
+        {
+            "percent_duplicates": {
+                "title": "% Dups",
+                "description": "% Duplicate Reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn-rev",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_duplicates",
+                "format": "{:,.1f}",
+                "colour": "152,78,163",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "percent_gc": {
+                "title": "% GC",
+                "description": "Average % GC Content",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "Set1",
+                "format": "{:,.0f}",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_gc",
+                "colour": "152,78,163",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "avg_sequence_length": {
+                "title": "Length",
+                "description": "Average Sequence Length (bp)",
+                "min": 0,
+                "suffix": " bp",
+                "scale": "RdYlGn",
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-avg_sequence_length",
+                "colour": "152,78,163",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "percent_fails": {
+                "title": "% Failed",
+                "description": "Percentage of modules failed in FastQC report (includes those not plotted here)",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "Reds",
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_fails",
+                "colour": "152,78,163",
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "total_sequences": {
+                "title": "M Seqs",
+                "description": "Total Sequences (millions)",
+                "min": 0,
+                "scale": "Blues",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-total_sequences",
+                "format": "{:,.1f}",
+                "colour": "152,78,163",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 326.730415,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/opt/conda/bin/multiqc stats --module samtools --module bcftools --module fastqc --module mosdepth",
+    "report_plot_data": {
+        "bcftools-stats-subtypes": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "NA07000"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "A>C",
+                        "data": [
+                            138969.0
+                        ]
+                    },
+                    {
+                        "name": "A>G",
+                        "data": [
+                            580558.0
+                        ]
+                    },
+                    {
+                        "name": "A>T",
+                        "data": [
+                            115231.0
+                        ]
+                    },
+                    {
+                        "name": "C>A",
+                        "data": [
+                            142100.0
+                        ]
+                    },
+                    {
+                        "name": "C>G",
+                        "data": [
+                            147519.0
+                        ]
+                    },
+                    {
+                        "name": "C>T",
+                        "data": [
+                            594887.0
+                        ]
+                    },
+                    {
+                        "name": "G>A",
+                        "data": [
+                            595209.0
+                        ]
+                    },
+                    {
+                        "name": "G>C",
+                        "data": [
+                            148114.0
+                        ]
+                    },
+                    {
+                        "name": "G>T",
+                        "data": [
+                            142787.0
+                        ]
+                    },
+                    {
+                        "name": "T>A",
+                        "data": [
+                            114585.0
+                        ]
+                    },
+                    {
+                        "name": "T>C",
+                        "data": [
+                            582901.0
+                        ]
+                    },
+                    {
+                        "name": "T>G",
+                        "data": [
+                            138457.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "bcftools-stats-subtypes",
+                "title": "Bcftools Stats: Substitutions",
+                "ylab": "# Substitutions",
+                "cpswitch_counts_label": "Number of Substitutions"
+            }
+        },
+        "bcftools_stats_vqc": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                998.0,
+                                3466174.0
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                998.0,
+                                2351994.0
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                998.0,
+                                1086625.0
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                998.0,
+                                515976.0
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "bcftools_stats_vqc",
+                "title": "Bcftools Stats: Variant Quality Count",
+                "ylab": "Count",
+                "xlab": "Quality",
+                "xDecimals": false,
+                "ymin": 0,
+                "smooth_points": 600,
+                "data_labels": [
+                    {
+                        "name": "Count SNP",
+                        "ylab": "Quality"
+                    },
+                    {
+                        "name": "Count Transitions",
+                        "ylab": "Quality"
+                    },
+                    {
+                        "name": "Count Transversions",
+                        "ylab": "Quality"
+                    },
+                    {
+                        "name": "Count Indels",
+                        "ylab": "Quality"
+                    }
+                ]
+            }
+        },
+        "bcftools_stats_indel-lengths": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                -60.0,
+                                268.0
+                            ],
+                            [
+                                -59.0,
+                                4.0
+                            ],
+                            [
+                                -58.0,
+                                10.0
+                            ],
+                            [
+                                -57.0,
+                                5.0
+                            ],
+                            [
+                                -56.0,
+                                13.0
+                            ],
+                            [
+                                -55.0,
+                                9.0
+                            ],
+                            [
+                                -54.0,
+                                8.0
+                            ],
+                            [
+                                -53.0,
+                                8.0
+                            ],
+                            [
+                                -52.0,
+                                11.0
+                            ],
+                            [
+                                -51.0,
+                                11.0
+                            ],
+                            [
+                                -50.0,
+                                19.0
+                            ],
+                            [
+                                -49.0,
+                                12.0
+                            ],
+                            [
+                                -48.0,
+                                22.0
+                            ],
+                            [
+                                -47.0,
+                                16.0
+                            ],
+                            [
+                                -46.0,
+                                19.0
+                            ],
+                            [
+                                -45.0,
+                                20.0
+                            ],
+                            [
+                                -44.0,
+                                30.0
+                            ],
+                            [
+                                -43.0,
+                                28.0
+                            ],
+                            [
+                                -42.0,
+                                28.0
+                            ],
+                            [
+                                -41.0,
+                                23.0
+                            ],
+                            [
+                                -40.0,
+                                39.0
+                            ],
+                            [
+                                -39.0,
+                                26.0
+                            ],
+                            [
+                                -38.0,
+                                47.0
+                            ],
+                            [
+                                -37.0,
+                                32.0
+                            ],
+                            [
+                                -36.0,
+                                68.0
+                            ],
+                            [
+                                -35.0,
+                                40.0
+                            ],
+                            [
+                                -34.0,
+                                57.0
+                            ],
+                            [
+                                -33.0,
+                                40.0
+                            ],
+                            [
+                                -32.0,
+                                104.0
+                            ],
+                            [
+                                -31.0,
+                                81.0
+                            ],
+                            [
+                                -30.0,
+                                128.0
+                            ],
+                            [
+                                -29.0,
+                                79.0
+                            ],
+                            [
+                                -28.0,
+                                159.0
+                            ],
+                            [
+                                -27.0,
+                                130.0
+                            ],
+                            [
+                                -26.0,
+                                175.0
+                            ],
+                            [
+                                -25.0,
+                                196.0
+                            ],
+                            [
+                                -24.0,
+                                322.0
+                            ],
+                            [
+                                -23.0,
+                                208.0
+                            ],
+                            [
+                                -22.0,
+                                319.0
+                            ],
+                            [
+                                -21.0,
+                                246.0
+                            ],
+                            [
+                                -20.0,
+                                483.0
+                            ],
+                            [
+                                -19.0,
+                                344.0
+                            ],
+                            [
+                                -18.0,
+                                560.0
+                            ],
+                            [
+                                -17.0,
+                                470.0
+                            ],
+                            [
+                                -16.0,
+                                852.0
+                            ],
+                            [
+                                -15.0,
+                                761.0
+                            ],
+                            [
+                                -14.0,
+                                1071.0
+                            ],
+                            [
+                                -13.0,
+                                907.0
+                            ],
+                            [
+                                -12.0,
+                                1846.0
+                            ],
+                            [
+                                -11.0,
+                                1181.0
+                            ],
+                            [
+                                -10.0,
+                                2157.0
+                            ],
+                            [
+                                -9.0,
+                                1645.0
+                            ],
+                            [
+                                -8.0,
+                                3204.0
+                            ],
+                            [
+                                -7.0,
+                                2149.0
+                            ],
+                            [
+                                -6.0,
+                                4871.0
+                            ],
+                            [
+                                -5.0,
+                                6947.0
+                            ],
+                            [
+                                -4.0,
+                                21712.0
+                            ],
+                            [
+                                -3.0,
+                                16963.0
+                            ],
+                            [
+                                -2.0,
+                                42648.0
+                            ],
+                            [
+                                -1.0,
+                                146814.0
+                            ],
+                            [
+                                0,
+                                null
+                            ],
+                            [
+                                1.0,
+                                171048.0
+                            ],
+                            [
+                                2.0,
+                                32868.0
+                            ],
+                            [
+                                3.0,
+                                13831.0
+                            ],
+                            [
+                                4.0,
+                                17458.0
+                            ],
+                            [
+                                5.0,
+                                5618.0
+                            ],
+                            [
+                                6.0,
+                                3373.0
+                            ],
+                            [
+                                7.0,
+                                1570.0
+                            ],
+                            [
+                                8.0,
+                                2072.0
+                            ],
+                            [
+                                9.0,
+                                1146.0
+                            ],
+                            [
+                                10.0,
+                                1239.0
+                            ],
+                            [
+                                11.0,
+                                826.0
+                            ],
+                            [
+                                12.0,
+                                1985.0
+                            ],
+                            [
+                                13.0,
+                                2696.0
+                            ],
+                            [
+                                14.0,
+                                2299.0
+                            ],
+                            [
+                                15.0,
+                                682.0
+                            ],
+                            [
+                                16.0,
+                                614.0
+                            ],
+                            [
+                                17.0,
+                                445.0
+                            ],
+                            [
+                                18.0,
+                                378.0
+                            ],
+                            [
+                                19.0,
+                                346.0
+                            ],
+                            [
+                                20.0,
+                                367.0
+                            ],
+                            [
+                                21.0,
+                                290.0
+                            ],
+                            [
+                                22.0,
+                                227.0
+                            ],
+                            [
+                                23.0,
+                                233.0
+                            ],
+                            [
+                                24.0,
+                                268.0
+                            ],
+                            [
+                                25.0,
+                                182.0
+                            ],
+                            [
+                                26.0,
+                                179.0
+                            ],
+                            [
+                                27.0,
+                                142.0
+                            ],
+                            [
+                                28.0,
+                                144.0
+                            ],
+                            [
+                                29.0,
+                                95.0
+                            ],
+                            [
+                                30.0,
+                                120.0
+                            ],
+                            [
+                                31.0,
+                                99.0
+                            ],
+                            [
+                                32.0,
+                                116.0
+                            ],
+                            [
+                                33.0,
+                                68.0
+                            ],
+                            [
+                                34.0,
+                                77.0
+                            ],
+                            [
+                                35.0,
+                                68.0
+                            ],
+                            [
+                                36.0,
+                                73.0
+                            ],
+                            [
+                                37.0,
+                                50.0
+                            ],
+                            [
+                                38.0,
+                                57.0
+                            ],
+                            [
+                                39.0,
+                                51.0
+                            ],
+                            [
+                                40.0,
+                                59.0
+                            ],
+                            [
+                                41.0,
+                                49.0
+                            ],
+                            [
+                                42.0,
+                                58.0
+                            ],
+                            [
+                                43.0,
+                                38.0
+                            ],
+                            [
+                                44.0,
+                                26.0
+                            ],
+                            [
+                                45.0,
+                                26.0
+                            ],
+                            [
+                                46.0,
+                                25.0
+                            ],
+                            [
+                                47.0,
+                                20.0
+                            ],
+                            [
+                                48.0,
+                                29.0
+                            ],
+                            [
+                                49.0,
+                                15.0
+                            ],
+                            [
+                                50.0,
+                                15.0
+                            ],
+                            [
+                                51.0,
+                                15.0
+                            ],
+                            [
+                                52.0,
+                                4.0
+                            ],
+                            [
+                                53.0,
+                                1.0
+                            ],
+                            [
+                                54.0,
+                                9.0
+                            ],
+                            [
+                                55.0,
+                                11.0
+                            ],
+                            [
+                                56.0,
+                                6.0
+                            ],
+                            [
+                                57.0,
+                                8.0
+                            ],
+                            [
+                                58.0,
+                                10.0
+                            ],
+                            [
+                                59.0,
+                                7.0
+                            ],
+                            [
+                                60.0,
+                                522.0
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "bcftools_stats_indel-lengths",
+                "title": "Bcftools Stats: Indel Distribution",
+                "ylab": "Count",
+                "xlab": "InDel Length (bp)",
+                "xDecimals": false,
+                "ymin": 0
+            }
+        },
+        "bcftools_stats_depth": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": []
+                    }
+                ]
+            ],
+            "config": {
+                "id": "bcftools_stats_depth",
+                "title": "Bcftools Stats: Variant depths",
+                "ylab": "Fraction of sites (%)",
+                "xlab": "Variant depth",
+                "ymin": 0,
+                "ymax": 100,
+                "categories": []
+            }
+        },
+        "samtools-stats-dp": {
+            "plot_type": "beeswarm",
+            "samples": [
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ],
+                [
+                    "NA07000"
+                ]
+            ],
+            "datasets": [
+                [
+                    326.730415
+                ],
+                [
+                    311.951962
+                ],
+                [
+                    309.526354
+                ],
+                [
+                    0.0
+                ],
+                [
+                    0.0
+                ],
+                [
+                    14.786196
+                ],
+                [
+                    31171.09515
+                ],
+                [
+                    0.0
+                ],
+                [
+                    0.0
+                ],
+                [
+                    0.528708
+                ],
+                [
+                    0.285301
+                ],
+                [
+                    154.956177
+                ],
+                [
+                    0.204383
+                ]
+            ],
+            "categories": [
+                {
+                    "namespace": "",
+                    "title": "Total sequences",
+                    "description": "Total sequences",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Mapped &amp; paired",
+                    "description": "Paired-end technology bit set + both mates mapped",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Properly paired",
+                    "description": "Proper-pair bit set",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Duplicated",
+                    "description": "PCR or optical duplicate bit set",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "QC Failed",
+                    "description": "QC Failed",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Reads MQ0",
+                    "description": "Reads mapped and MQ=0",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Mapped bases (CIGAR)",
+                    "description": "Mapped bases (CIGAR)",
+                    "max": 31171.09515,
+                    "min": 0.0,
+                    "suffix": "M bases",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Bases Trimmed",
+                    "description": "Bases Trimmed",
+                    "max": 31171.09515,
+                    "min": 0.0,
+                    "suffix": "M bases",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Duplicated bases",
+                    "description": "Duplicated bases",
+                    "max": 31171.09515,
+                    "min": 0.0,
+                    "suffix": "M bases",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Diff chromosomes",
+                    "description": "Pairs on different chromosomes",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Other orientation",
+                    "description": "Pairs with other orientation",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Inward pairs",
+                    "description": "Inward oriented pairs",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Outward pairs",
+                    "description": "Outward oriented pairs",
+                    "max": 326.730415,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                }
+            ]
+        },
+        "fastqc_sequence_counts_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "NA07000"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Unique Reads",
+                        "data": [
+                            281145144.0
+                        ]
+                    },
+                    {
+                        "name": "Duplicate Reads",
+                        "data": [
+                            45585271.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_sequence_counts_plot",
+                "title": "FastQC: Sequence Counts",
+                "ylab": "Number of reads",
+                "cpswitch_counts_label": "Number of reads",
+                "hide_zero_cats": false
+            }
+        },
+        "fastqc_per_base_sequence_quality_plot": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                1,
+                                31.428245637921403
+                            ],
+                            [
+                                2,
+                                33.30669350142992
+                            ],
+                            [
+                                3,
+                                34.51417868152863
+                            ],
+                            [
+                                4,
+                                35.11408896536308
+                            ],
+                            [
+                                5,
+                                35.79337109463776
+                            ],
+                            [
+                                6,
+                                36.252094008450364
+                            ],
+                            [
+                                7,
+                                36.41661094514265
+                            ],
+                            [
+                                8,
+                                36.567742709230174
+                            ],
+                            [
+                                9,
+                                36.67681435779402
+                            ],
+                            [
+                                10,
+                                36.87549022639965
+                            ],
+                            [
+                                12,
+                                37.119570014625054
+                            ],
+                            [
+                                14,
+                                37.26735167125472
+                            ],
+                            [
+                                16,
+                                37.381729893435235
+                            ],
+                            [
+                                18,
+                                37.44383080161056
+                            ],
+                            [
+                                20,
+                                37.45007477494864
+                            ],
+                            [
+                                22,
+                                37.43870482795426
+                            ],
+                            [
+                                24,
+                                37.369362786442764
+                            ],
+                            [
+                                26,
+                                37.34343277469286
+                            ],
+                            [
+                                28,
+                                37.31317208408651
+                            ],
+                            [
+                                30,
+                                37.29488283635914
+                            ],
+                            [
+                                32,
+                                37.22792608548549
+                            ],
+                            [
+                                34,
+                                37.145873096938345
+                            ],
+                            [
+                                36,
+                                37.08313777277209
+                            ],
+                            [
+                                38,
+                                37.036082507041776
+                            ],
+                            [
+                                40,
+                                37.00749497257548
+                            ],
+                            [
+                                42,
+                                36.95620463586165
+                            ],
+                            [
+                                44,
+                                36.881717144392574
+                            ],
+                            [
+                                46,
+                                36.77121043047064
+                            ],
+                            [
+                                48,
+                                36.75153942585969
+                            ],
+                            [
+                                50,
+                                36.8216761500456
+                            ],
+                            [
+                                52,
+                                37.02906660526232
+                            ],
+                            [
+                                54,
+                                36.95290374175909
+                            ],
+                            [
+                                56,
+                                36.89968128770626
+                            ],
+                            [
+                                58,
+                                36.86778353340628
+                            ],
+                            [
+                                60,
+                                36.788087325754475
+                            ],
+                            [
+                                62,
+                                36.70524112057336
+                            ],
+                            [
+                                64,
+                                36.51684728830648
+                            ],
+                            [
+                                66,
+                                36.44045073061227
+                            ],
+                            [
+                                68,
+                                36.31406656616281
+                            ],
+                            [
+                                70,
+                                36.101672713879424
+                            ],
+                            [
+                                72,
+                                36.03074290619684
+                            ],
+                            [
+                                74,
+                                35.81761652033528
+                            ],
+                            [
+                                76,
+                                35.93756680564924
+                            ],
+                            [
+                                78,
+                                35.86175902846388
+                            ],
+                            [
+                                80,
+                                35.68252590901278
+                            ],
+                            [
+                                82,
+                                35.48314638231645
+                            ],
+                            [
+                                84,
+                                35.30164526311394
+                            ],
+                            [
+                                86,
+                                35.065205277874114
+                            ],
+                            [
+                                88,
+                                34.763342794395186
+                            ],
+                            [
+                                90,
+                                34.35419756376216
+                            ],
+                            [
+                                92,
+                                33.88917407949303
+                            ],
+                            [
+                                94,
+                                33.17803522821712
+                            ],
+                            [
+                                96,
+                                32.32728306760177
+                            ],
+                            [
+                                98,
+                                31.623284012294967
+                            ],
+                            [
+                                100,
+                                26.729207775162283
+                            ]
+                        ],
+                        "color": "#5cb85c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_per_base_sequence_quality_plot",
+                "title": "FastQC: Mean Quality Scores",
+                "ylab": "Phred Score",
+                "xlab": "Position (bp)",
+                "ymin": 0,
+                "xDecimals": false,
+                "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}",
+                "colors": {
+                    "NA07000": "#5cb85c"
+                },
+                "yPlotBands": [
+                    {
+                        "from": 28,
+                        "to": 100,
+                        "color": "#c3e6c3"
+                    },
+                    {
+                        "from": 20,
+                        "to": 28,
+                        "color": "#e6dcc3"
+                    },
+                    {
+                        "from": 0,
+                        "to": 20,
+                        "color": "#e6c3c3"
+                    }
+                ]
+            }
+        },
+        "fastqc_per_sequence_quality_scores_plot": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                4.0,
+                                26.0
+                            ],
+                            [
+                                5.0,
+                                288.0
+                            ],
+                            [
+                                6.0,
+                                1464.0
+                            ],
+                            [
+                                7.0,
+                                3992.0
+                            ],
+                            [
+                                8.0,
+                                7772.0
+                            ],
+                            [
+                                9.0,
+                                11678.0
+                            ],
+                            [
+                                10.0,
+                                15806.0
+                            ],
+                            [
+                                11.0,
+                                19558.0
+                            ],
+                            [
+                                12.0,
+                                23564.0
+                            ],
+                            [
+                                13.0,
+                                29228.0
+                            ],
+                            [
+                                14.0,
+                                38360.0
+                            ],
+                            [
+                                15.0,
+                                55540.0
+                            ],
+                            [
+                                16.0,
+                                88633.0
+                            ],
+                            [
+                                17.0,
+                                145682.0
+                            ],
+                            [
+                                18.0,
+                                230498.0
+                            ],
+                            [
+                                19.0,
+                                348662.0
+                            ],
+                            [
+                                20.0,
+                                495418.0
+                            ],
+                            [
+                                21.0,
+                                676418.0
+                            ],
+                            [
+                                22.0,
+                                892646.0
+                            ],
+                            [
+                                23.0,
+                                1159894.0
+                            ],
+                            [
+                                24.0,
+                                1502127.0
+                            ],
+                            [
+                                25.0,
+                                1948529.0
+                            ],
+                            [
+                                26.0,
+                                2522392.0
+                            ],
+                            [
+                                27.0,
+                                3272856.0
+                            ],
+                            [
+                                28.0,
+                                4240768.0
+                            ],
+                            [
+                                29.0,
+                                5448604.0
+                            ],
+                            [
+                                30.0,
+                                6910678.0
+                            ],
+                            [
+                                31.0,
+                                8667133.0
+                            ],
+                            [
+                                32.0,
+                                10802428.0
+                            ],
+                            [
+                                33.0,
+                                13568119.0
+                            ],
+                            [
+                                34.0,
+                                17626105.0
+                            ],
+                            [
+                                35.0,
+                                24604432.0
+                            ],
+                            [
+                                36.0,
+                                40144986.0
+                            ],
+                            [
+                                37.0,
+                                82822280.0
+                            ],
+                            [
+                                38.0,
+                                64029719.0
+                            ],
+                            [
+                                39.0,
+                                28090903.0
+                            ],
+                            [
+                                40.0,
+                                6279246.0
+                            ],
+                            [
+                                41.0,
+                                3983.0
+                            ]
+                        ],
+                        "color": "#5cb85c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_per_sequence_quality_scores_plot",
+                "title": "FastQC: Per Sequence Quality Scores",
+                "ylab": "Count",
+                "xlab": "Mean Sequence Quality (Phred Score)",
+                "ymin": 0,
+                "xmin": 0,
+                "xDecimals": false,
+                "colors": {
+                    "NA07000": "#5cb85c"
+                },
+                "tt_label": "<b>Phred {point.x}</b>: {point.y} reads",
+                "xPlotBands": [
+                    {
+                        "from": 28,
+                        "to": 100,
+                        "color": "#c3e6c3"
+                    },
+                    {
+                        "from": 20,
+                        "to": 28,
+                        "color": "#e6dcc3"
+                    },
+                    {
+                        "from": 0,
+                        "to": 20,
+                        "color": "#e6c3c3"
+                    }
+                ]
+            }
+        },
+        "fastqc_per_sequence_gc_content_plot": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                0.0,
+                                7.743384601578837e-05
+                            ],
+                            [
+                                1.0,
+                                0.0001069688900494784
+                            ],
+                            [
+                                2.0,
+                                0.00018975883213355252
+                            ],
+                            [
+                                3.0,
+                                0.00030116563035389624
+                            ],
+                            [
+                                4.0,
+                                0.0004419544412916933
+                            ],
+                            [
+                                5.0,
+                                0.000618246517596413
+                            ],
+                            [
+                                6.0,
+                                0.0008560571830283005
+                            ],
+                            [
+                                7.0,
+                                0.0012112428680137646
+                            ],
+                            [
+                                8.0,
+                                0.0016366699271518903
+                            ],
+                            [
+                                9.0,
+                                0.002146723304168931
+                            ],
+                            [
+                                10.0,
+                                0.002884334248429998
+                            ],
+                            [
+                                11.0,
+                                0.003955247399454676
+                            ],
+                            [
+                                12.0,
+                                0.005539427585137366
+                            ],
+                            [
+                                13.0,
+                                0.008177534445742455
+                            ],
+                            [
+                                14.0,
+                                0.012548873994044817
+                            ],
+                            [
+                                15.0,
+                                0.01977945065491435
+                            ],
+                            [
+                                16.0,
+                                0.03176379212336185
+                            ],
+                            [
+                                17.0,
+                                0.05151171832713143
+                            ],
+                            [
+                                18.0,
+                                0.08278734055169809
+                            ],
+                            [
+                                19.0,
+                                0.12956350479788373
+                            ],
+                            [
+                                20.0,
+                                0.19632112103641622
+                            ],
+                            [
+                                21.0,
+                                0.287213765252593
+                            ],
+                            [
+                                22.0,
+                                0.40540520687829246
+                            ],
+                            [
+                                23.0,
+                                0.5531131757484172
+                            ],
+                            [
+                                24.0,
+                                0.7331225357558435
+                            ],
+                            [
+                                25.0,
+                                0.9468437765423254
+                            ],
+                            [
+                                26.0,
+                                1.1906740818297012
+                            ],
+                            [
+                                27.0,
+                                1.4593803927279396
+                            ],
+                            [
+                                28.0,
+                                1.747352734215118
+                            ],
+                            [
+                                29.0,
+                                2.047308192920214
+                            ],
+                            [
+                                30.0,
+                                2.3512571568538245
+                            ],
+                            [
+                                31.0,
+                                2.6535533825720776
+                            ],
+                            [
+                                32.0,
+                                2.9515908997907787
+                            ],
+                            [
+                                33.0,
+                                3.237618213248588
+                            ],
+                            [
+                                34.0,
+                                3.5037568116916904
+                            ],
+                            [
+                                35.0,
+                                3.7494237988365398
+                            ],
+                            [
+                                36.0,
+                                3.9641187778882356
+                            ],
+                            [
+                                37.0,
+                                4.116971965672872
+                            ],
+                            [
+                                38.0,
+                                4.184473008045683
+                            ],
+                            [
+                                39.0,
+                                4.164555676174839
+                            ],
+                            [
+                                40.0,
+                                4.0654193879843055
+                            ],
+                            [
+                                41.0,
+                                3.898379432027942
+                            ],
+                            [
+                                42.0,
+                                3.6822228508748696
+                            ],
+                            [
+                                43.0,
+                                3.4408367617704263
+                            ],
+                            [
+                                44.0,
+                                3.205904462365636
+                            ],
+                            [
+                                45.0,
+                                3.0062438919463017
+                            ],
+                            [
+                                46.0,
+                                2.846922529518287
+                            ],
+                            [
+                                47.0,
+                                2.7255723684941455
+                            ],
+                            [
+                                48.0,
+                                2.6253184926011346
+                            ],
+                            [
+                                49.0,
+                                2.5179247876177833
+                            ],
+                            [
+                                50.0,
+                                2.389504579783504
+                            ],
+                            [
+                                51.0,
+                                2.2399176924126247
+                            ],
+                            [
+                                52.0,
+                                2.0774904063902695
+                            ],
+                            [
+                                53.0,
+                                1.9189579203974554
+                            ],
+                            [
+                                54.0,
+                                1.776371144525193
+                            ],
+                            [
+                                55.0,
+                                1.650441062268718
+                            ],
+                            [
+                                56.0,
+                                1.5338726707830255
+                            ],
+                            [
+                                57.0,
+                                1.4134913510219784
+                            ],
+                            [
+                                58.0,
+                                1.279736624535003
+                            ],
+                            [
+                                59.0,
+                                1.1307786958738564
+                            ],
+                            [
+                                60.0,
+                                0.973849059887306
+                            ],
+                            [
+                                61.0,
+                                0.8210229586456435
+                            ],
+                            [
+                                62.0,
+                                0.6838709369382124
+                            ],
+                            [
+                                63.0,
+                                0.5678181079569214
+                            ],
+                            [
+                                64.0,
+                                0.47088761315862415
+                            ],
+                            [
+                                65.0,
+                                0.3908320346330681
+                            ],
+                            [
+                                66.0,
+                                0.32358318786941564
+                            ],
+                            [
+                                67.0,
+                                0.266406097183884
+                            ],
+                            [
+                                68.0,
+                                0.2183031514259259
+                            ],
+                            [
+                                69.0,
+                                0.17760845168698816
+                            ],
+                            [
+                                70.0,
+                                0.1439358999562055
+                            ],
+                            [
+                                71.0,
+                                0.11648345910518121
+                            ],
+                            [
+                                72.0,
+                                0.09526643226553896
+                            ],
+                            [
+                                73.0,
+                                0.07898696084427499
+                            ],
+                            [
+                                74.0,
+                                0.06600959916476733
+                            ],
+                            [
+                                75.0,
+                                0.0564338175825698
+                            ],
+                            [
+                                76.0,
+                                0.049100097814556716
+                            ],
+                            [
+                                77.0,
+                                0.04354842772412041
+                            ],
+                            [
+                                78.0,
+                                0.039020078045359154
+                            ],
+                            [
+                                79.0,
+                                0.0343129877892334
+                            ],
+                            [
+                                80.0,
+                                0.02982886416086456
+                            ],
+                            [
+                                81.0,
+                                0.025572145068423514
+                            ],
+                            [
+                                82.0,
+                                0.021939640714912115
+                            ],
+                            [
+                                83.0,
+                                0.018584276075105443
+                            ],
+                            [
+                                84.0,
+                                0.015363732024903338
+                            ],
+                            [
+                                85.0,
+                                0.012369827354047834
+                            ],
+                            [
+                                86.0,
+                                0.009485952199566548
+                            ],
+                            [
+                                87.0,
+                                0.007034696576086513
+                            ],
+                            [
+                                88.0,
+                                0.005104512584392562
+                            ],
+                            [
+                                89.0,
+                                0.0036781076857499467
+                            ],
+                            [
+                                90.0,
+                                0.002643309925357139
+                            ],
+                            [
+                                91.0,
+                                0.001880907907865721
+                            ],
+                            [
+                                92.0,
+                                0.001283473649277504
+                            ],
+                            [
+                                93.0,
+                                0.0008692178762246598
+                            ],
+                            [
+                                94.0,
+                                0.0005850387219730413
+                            ],
+                            [
+                                95.0,
+                                0.00040446176881369294
+                            ],
+                            [
+                                96.0,
+                                0.00026520327103826333
+                            ],
+                            [
+                                97.0,
+                                0.00016940566707406663
+                            ],
+                            [
+                                98.0,
+                                0.00010589767083582125
+                            ],
+                            [
+                                99.0,
+                                6.136555781093109e-05
+                            ],
+                            [
+                                100.0,
+                                3.137141982853086e-05
+                            ]
+                        ],
+                        "color": "#f0ad4e"
+                    }
+                ],
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                0.0,
+                                253.0
+                            ],
+                            [
+                                1.0,
+                                349.5
+                            ],
+                            [
+                                2.0,
+                                620.0
+                            ],
+                            [
+                                3.0,
+                                984.0
+                            ],
+                            [
+                                4.0,
+                                1444.0
+                            ],
+                            [
+                                5.0,
+                                2020.0
+                            ],
+                            [
+                                6.0,
+                                2797.0
+                            ],
+                            [
+                                7.0,
+                                3957.5
+                            ],
+                            [
+                                8.0,
+                                5347.5
+                            ],
+                            [
+                                9.0,
+                                7014.0
+                            ],
+                            [
+                                10.0,
+                                9424.0
+                            ],
+                            [
+                                11.0,
+                                12923.0
+                            ],
+                            [
+                                12.0,
+                                18099.0
+                            ],
+                            [
+                                13.0,
+                                26718.5
+                            ],
+                            [
+                                14.0,
+                                41001.0
+                            ],
+                            [
+                                15.0,
+                                64625.5
+                            ],
+                            [
+                                16.0,
+                                103782.0
+                            ],
+                            [
+                                17.0,
+                                168304.5
+                            ],
+                            [
+                                18.0,
+                                270491.5
+                            ],
+                            [
+                                19.0,
+                                423323.5
+                            ],
+                            [
+                                20.0,
+                                641441.0
+                            ],
+                            [
+                                21.0,
+                                938415.0
+                            ],
+                            [
+                                22.0,
+                                1324582.5
+                            ],
+                            [
+                                23.0,
+                                1807189.5
+                            ],
+                            [
+                                24.0,
+                                2395335.0
+                            ],
+                            [
+                                25.0,
+                                3093627.5
+                            ],
+                            [
+                                26.0,
+                                3890295.5
+                            ],
+                            [
+                                27.0,
+                                4768241.0
+                            ],
+                            [
+                                28.0,
+                                5709134.5
+                            ],
+                            [
+                                29.0,
+                                6689180.5
+                            ],
+                            [
+                                30.0,
+                                7682274.5
+                            ],
+                            [
+                                31.0,
+                                8669968.5
+                            ],
+                            [
+                                32.0,
+                                9643748.0
+                            ],
+                            [
+                                33.0,
+                                10578286.5
+                            ],
+                            [
+                                34.0,
+                                11447842.5
+                            ],
+                            [
+                                35.0,
+                                12250511.5
+                            ],
+                            [
+                                36.0,
+                                12951985.5
+                            ],
+                            [
+                                37.0,
+                                13451403.5
+                            ],
+                            [
+                                38.0,
+                                13671950.0
+                            ],
+                            [
+                                39.0,
+                                13606874.0
+                            ],
+                            [
+                                40.0,
+                                13282965.5
+                            ],
+                            [
+                                41.0,
+                                12737195.0
+                            ],
+                            [
+                                42.0,
+                                12030945.5
+                            ],
+                            [
+                                43.0,
+                                11242263.5
+                            ],
+                            [
+                                44.0,
+                                10474668.0
+                            ],
+                            [
+                                45.0,
+                                9822316.0
+                            ],
+                            [
+                                46.0,
+                                9301764.5
+                            ],
+                            [
+                                47.0,
+                                8905276.5
+                            ],
+                            [
+                                48.0,
+                                8577716.5
+                            ],
+                            [
+                                49.0,
+                                8226828.5
+                            ],
+                            [
+                                50.0,
+                                7807240.5
+                            ],
+                            [
+                                51.0,
+                                7318494.5
+                            ],
+                            [
+                                52.0,
+                                6787795.0
+                            ],
+                            [
+                                53.0,
+                                6269821.0
+                            ],
+                            [
+                                54.0,
+                                5803946.5
+                            ],
+                            [
+                                55.0,
+                                5392494.5
+                            ],
+                            [
+                                56.0,
+                                5011630.0
+                            ],
+                            [
+                                57.0,
+                                4618307.5
+                            ],
+                            [
+                                58.0,
+                                4181290.0
+                            ],
+                            [
+                                59.0,
+                                3694599.0
+                            ],
+                            [
+                                60.0,
+                                3181862.0
+                            ],
+                            [
+                                61.0,
+                                2682532.5
+                            ],
+                            [
+                                62.0,
+                                2234415.0
+                            ],
+                            [
+                                63.0,
+                                1855235.0
+                            ],
+                            [
+                                64.0,
+                                1538533.5
+                            ],
+                            [
+                                65.0,
+                                1276967.5
+                            ],
+                            [
+                                66.0,
+                                1057245.0
+                            ],
+                            [
+                                67.0,
+                                870430.0
+                            ],
+                            [
+                                68.0,
+                                713263.0
+                            ],
+                            [
+                                69.0,
+                                580301.0
+                            ],
+                            [
+                                70.0,
+                                470282.5
+                            ],
+                            [
+                                71.0,
+                                380587.0
+                            ],
+                            [
+                                72.0,
+                                311264.5
+                            ],
+                            [
+                                73.0,
+                                258074.5
+                            ],
+                            [
+                                74.0,
+                                215673.5
+                            ],
+                            [
+                                75.0,
+                                184386.5
+                            ],
+                            [
+                                76.0,
+                                160425.0
+                            ],
+                            [
+                                77.0,
+                                142286.0
+                            ],
+                            [
+                                78.0,
+                                127490.5
+                            ],
+                            [
+                                79.0,
+                                112111.0
+                            ],
+                            [
+                                80.0,
+                                97460.0
+                            ],
+                            [
+                                81.0,
+                                83552.0
+                            ],
+                            [
+                                82.0,
+                                71683.5
+                            ],
+                            [
+                                83.0,
+                                60720.5
+                            ],
+                            [
+                                84.0,
+                                50198.0
+                            ],
+                            [
+                                85.0,
+                                40416.0
+                            ],
+                            [
+                                86.0,
+                                30993.5
+                            ],
+                            [
+                                87.0,
+                                22984.5
+                            ],
+                            [
+                                88.0,
+                                16678.0
+                            ],
+                            [
+                                89.0,
+                                12017.5
+                            ],
+                            [
+                                90.0,
+                                8636.5
+                            ],
+                            [
+                                91.0,
+                                6145.5
+                            ],
+                            [
+                                92.0,
+                                4193.5
+                            ],
+                            [
+                                93.0,
+                                2840.0
+                            ],
+                            [
+                                94.0,
+                                1911.5
+                            ],
+                            [
+                                95.0,
+                                1321.5
+                            ],
+                            [
+                                96.0,
+                                866.5
+                            ],
+                            [
+                                97.0,
+                                553.5
+                            ],
+                            [
+                                98.0,
+                                346.0
+                            ],
+                            [
+                                99.0,
+                                200.5
+                            ],
+                            [
+                                100.0,
+                                102.5
+                            ]
+                        ],
+                        "color": "#f0ad4e"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_per_sequence_gc_content_plot",
+                "title": "FastQC: Per Sequence GC Content",
+                "xlab": "% GC",
+                "ylab": "Percentage",
+                "ymin": 0,
+                "xmax": 100,
+                "xmin": 0,
+                "yDecimals": false,
+                "tt_label": "<b>{point.x}% GC</b>: {point.y}",
+                "colors": {
+                    "NA07000": "#f0ad4e"
+                },
+                "data_labels": [
+                    {
+                        "name": "Percentages",
+                        "ylab": "Percentage"
+                    },
+                    {
+                        "name": "Counts",
+                        "ylab": "Count"
+                    }
+                ]
+            }
+        },
+        "fastqc_per_base_n_content_plot": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            [
+                                1,
+                                0.0
+                            ],
+                            [
+                                2,
+                                0.0
+                            ],
+                            [
+                                3,
+                                0.0
+                            ],
+                            [
+                                4,
+                                0.0
+                            ],
+                            [
+                                5,
+                                0.0
+                            ],
+                            [
+                                6,
+                                0.0
+                            ],
+                            [
+                                7,
+                                0.0
+                            ],
+                            [
+                                8,
+                                0.0
+                            ],
+                            [
+                                9,
+                                0.0
+                            ],
+                            [
+                                10,
+                                0.0
+                            ],
+                            [
+                                12,
+                                0.0
+                            ],
+                            [
+                                14,
+                                0.0
+                            ],
+                            [
+                                16,
+                                0.0
+                            ],
+                            [
+                                18,
+                                0.0
+                            ],
+                            [
+                                20,
+                                0.0
+                            ],
+                            [
+                                22,
+                                0.0
+                            ],
+                            [
+                                24,
+                                0.0
+                            ],
+                            [
+                                26,
+                                0.0
+                            ],
+                            [
+                                28,
+                                0.0
+                            ],
+                            [
+                                30,
+                                0.0
+                            ],
+                            [
+                                32,
+                                0.0
+                            ],
+                            [
+                                34,
+                                0.0
+                            ],
+                            [
+                                36,
+                                0.010949546891739478
+                            ],
+                            [
+                                38,
+                                0.010986121386954442
+                            ],
+                            [
+                                40,
+                                0.012333103424118013
+                            ],
+                            [
+                                42,
+                                0.013834494104260237
+                            ],
+                            [
+                                44,
+                                0.013411515423196825
+                            ],
+                            [
+                                46,
+                                0.012790667192706868
+                            ],
+                            [
+                                48,
+                                0.011829324184588081
+                            ],
+                            [
+                                50,
+                                0.012636411581088953
+                            ],
+                            [
+                                52,
+                                0.01163298494876885
+                            ],
+                            [
+                                54,
+                                0.01171776432261441
+                            ],
+                            [
+                                56,
+                                0.010894455601875937
+                            ],
+                            [
+                                58,
+                                0.011193937974828575
+                            ],
+                            [
+                                60,
+                                0.014057460796846843
+                            ],
+                            [
+                                62,
+                                0.013087854095248524
+                            ],
+                            [
+                                64,
+                                0.004532176779440628
+                            ],
+                            [
+                                66,
+                                0.004882618595517041
+                            ],
+                            [
+                                68,
+                                0.005616557001587991
+                            ],
+                            [
+                                70,
+                                0.004974131349234812
+                            ],
+                            [
+                                72,
+                                0.0049649494675908885
+                            ],
+                            [
+                                74,
+                                0.060910919480820294
+                            ],
+                            [
+                                76,
+                                0.010847628005491928
+                            ],
+                            [
+                                78,
+                                0.010071912037941127
+                            ],
+                            [
+                                80,
+                                0.008085871038360478
+                            ],
+                            [
+                                82,
+                                0.007042197158167843
+                            ],
+                            [
+                                84,
+                                0.0055831961649484025
+                            ],
+                            [
+                                86,
+                                0.009360010147815593
+                            ],
+                            [
+                                88,
+                                0.007432580159395324
+                            ],
+                            [
+                                90,
+                                0.00686131408978255
+                            ],
+                            [
+                                92,
+                                0.008016394800588125
+                            ],
+                            [
+                                94,
+                                0.012217717778126042
+                            ],
+                            [
+                                96,
+                                0.00979997530992026
+                            ],
+                            [
+                                98,
+                                0.009354194956107774
+                            ],
+                            [
+                                100,
+                                0.0901042530735928
+                            ]
+                        ],
+                        "color": "#5cb85c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_per_base_n_content_plot",
+                "title": "FastQC: Per Base N Content",
+                "ylab": "Percentage N-Count",
+                "xlab": "Position in Read (bp)",
+                "yCeiling": 100,
+                "yMinRange": 5,
+                "ymin": 0,
+                "xmin": 0,
+                "xDecimals": false,
+                "colors": {
+                    "NA07000": "#5cb85c"
+                },
+                "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}%",
+                "yPlotBands": [
+                    {
+                        "from": 20,
+                        "to": 100,
+                        "color": "#e6c3c3"
+                    },
+                    {
+                        "from": 5,
+                        "to": 20,
+                        "color": "#e6dcc3"
+                    },
+                    {
+                        "from": 0,
+                        "to": 5,
+                        "color": "#c3e6c3"
+                    }
+                ]
+            }
+        },
+        "fastqc_sequence_duplication_levels_plot": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "NA07000",
+                        "data": [
+                            77.56742015485989,
+                            13.785096234092393,
+                            3.187129507829957,
+                            0.8841939301352131,
+                            0.2881146646014131,
+                            0.12907442335889366,
+                            0.07805894700589605,
+                            0.08507943740571537,
+                            0.08008907247005445,
+                            3.531120121952018,
+                            0.11745457443629866,
+                            0.23897316304723584,
+                            0.024501759740449366,
+                            0.0036940090646080392,
+                            0.0,
+                            0.0
+                        ],
+                        "color": "#5cb85c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "fastqc_sequence_duplication_levels_plot",
+                "title": "FastQC: Sequence Duplication Levels",
+                "categories": [
+                    1.0,
+                    2.0,
+                    3.0,
+                    4.0,
+                    5.0,
+                    6.0,
+                    7.0,
+                    8.0,
+                    9.0,
+                    ">10",
+                    ">50",
+                    ">100",
+                    ">500",
+                    ">1k",
+                    ">5k",
+                    ">10k+"
+                ],
+                "ylab": "% of Library",
+                "xlab": "Sequence Duplication Level",
+                "ymax": 100,
+                "ymin": 0,
+                "yMinTickInterval": 0.1,
+                "yLabelFormat": "{value:.0f}%",
+                "colors": {
+                    "NA07000": "#5cb85c"
+                },
+                "tt_decimals": 2,
+                "tt_suffix": "%"
+            }
+        },
+        "fastqc-status-check-heatmap": {
+            "plot_type": "heatmap",
+            "data": [
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1
+                ],
+                [
+                    2,
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    0,
+                    1
+                ],
+                [
+                    4,
+                    0,
+                    0.5
+                ],
+                [
+                    5,
+                    0,
+                    1
+                ],
+                [
+                    6,
+                    0,
+                    1
+                ],
+                [
+                    7,
+                    0,
+                    1
+                ],
+                [
+                    8,
+                    0,
+                    1
+                ],
+                [
+                    9,
+                    0,
+                    1
+                ]
+            ],
+            "xcats": [
+                "Basic Statistics",
+                "Per Base Sequence Quality",
+                "Per Sequence Quality Scores",
+                "Per Base Sequence Content",
+                "Per Sequence GC Content",
+                "Per Base N Content",
+                "Sequence Length Distribution",
+                "Sequence Duplication Levels",
+                "Overrepresented Sequences",
+                "Adapter Content"
+            ],
+            "ycats": [
+                "NA07000"
+            ],
+            "config": {
+                "id": "fastqc-status-check-heatmap",
+                "title": "FastQC: Status Checks",
+                "xTitle": "Section Name",
+                "yTitle": "Sample",
+                "min": 0,
+                "max": 1,
+                "square": false,
+                "colstops": [
+                    [
+                        0,
+                        "#ffffff"
+                    ],
+                    [
+                        0.25,
+                        "#d9534f"
+                    ],
+                    [
+                        0.5,
+                        "#fee391"
+                    ],
+                    [
+                        1,
+                        "#5cb85c"
+                    ]
+                ],
+                "decimalPlaces": 1,
+                "legend": false,
+                "datalabels": false,
+                "xcats_samples": false
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_bcftools_stats": {
+            "NA07000": {
+                "number_of_samples": 1.0,
+                "number_of_records": 12414724.0,
+                "number_of_no-ALTs": 6877473.0,
+                "number_of_SNPs": 3466189.0,
+                "number_of_MNPs": 60278.0,
+                "number_of_indels": 515976.0,
+                "number_of_others": 1501504.0,
+                "number_of_multiallelic_sites": 19464.0,
+                "number_of_multiallelic_SNP_sites": 981.0,
+                "ts": 2353555.0,
+                "tv": 1087762.0,
+                "tstv": 2.16,
+                "ts_1st_ALT": 2351994.0,
+                "tv_1st_ALT": 1086625.0,
+                "tstv_1st_ALT": 2.16,
+                "substitution_type_A>C": 138969.0,
+                "substitution_type_A>G": 580558.0,
+                "substitution_type_A>T": 115231.0,
+                "substitution_type_C>A": 142100.0,
+                "substitution_type_C>G": 147519.0,
+                "substitution_type_C>T": 594887.0,
+                "substitution_type_G>A": 595209.0,
+                "substitution_type_G>C": 148114.0,
+                "substitution_type_G>T": 142787.0,
+                "substitution_type_T>A": 114585.0,
+                "substitution_type_T>C": 582901.0,
+                "substitution_type_T>G": 138457.0
+            }
+        },
+        "multiqc_samtools_stats": {
+            "NA07000": {
+                "raw_total_sequences": 326730415.0,
+                "filtered_sequences": 13104278.0,
+                "sequences": 313626137.0,
+                "is_sorted": 1.0,
+                "1st_fragments": 156810469.0,
+                "last_fragments": 156815668.0,
+                "reads_mapped": 312617690.0,
+                "reads_mapped_and_paired": 311951962.0,
+                "reads_unmapped": 1008447.0,
+                "reads_properly_paired": 309526354.0,
+                "reads_paired": 313626137.0,
+                "reads_duplicated": 0.0,
+                "reads_MQ0": 14786196.0,
+                "reads_QC_failed": 0.0,
+                "non-primary_alignments": 0.0,
+                "total_length": 31362613700.0,
+                "bases_mapped": 31261769000.0,
+                "bases_mapped_(cigar)": 31171095150.0,
+                "bases_trimmed": 0.0,
+                "bases_duplicated": 0.0,
+                "mismatches": 165192964.0,
+                "error_rate": 0.005299556,
+                "average_length": 100.0,
+                "maximum_length": 100.0,
+                "average_quality": 36.1,
+                "insert_size_average": 413.3,
+                "insert_size_standard_deviation": 88.7,
+                "inward_oriented_pairs": 154956177.0,
+                "outward_oriented_pairs": 204383.0,
+                "pairs_with_other_orientation": 285301.0,
+                "pairs_on_different_chromosomes": 528708.0,
+                "reads_mapped_percent": 95.68062097922534,
+                "reads_mapped_and_paired_percent": 95.47686645579047,
+                "reads_unmapped_percent": 0.3086480332723233,
+                "reads_properly_paired_percent": 94.73447827010534,
+                "reads_paired_percent": 95.98926901249766,
+                "reads_duplicated_percent": 0.0,
+                "reads_MQ0_percent": 4.525503387861825,
+                "reads_QC_failed_percent": 0.0
+            }
+        },
+        "multiqc_fastqc": {
+            "NA07000": {
+                "Filename": "NA07000.bam",
+                "File type": "Conventional base calls",
+                "Encoding": "Sanger / Illumina 1.9",
+                "Total Sequences": 326730415.0,
+                "Sequences flagged as poor quality": 0.0,
+                "Sequence length": 100.0,
+                "%GC": 41.0,
+                "total_deduplicated_percentage": 86.04804768617352,
+                "avg_sequence_length": 100.0,
+                "basic_statistics": "pass",
+                "per_base_sequence_quality": "pass",
+                "per_sequence_quality_scores": "pass",
+                "per_base_sequence_content": "pass",
+                "per_sequence_gc_content": "warn",
+                "per_base_n_content": "pass",
+                "sequence_length_distribution": "pass",
+                "sequence_duplication_levels": "pass",
+                "overrepresented_sequences": "pass",
+                "adapter_content": "pass"
+            }
+        },
+        "multiqc_general_stats": {
+            "NA07000": {
+                "Bcftools Stats_mqc-generalstats-bcftools_stats-number_of_records": 12414724.0,
+                "Bcftools Stats_mqc-generalstats-bcftools_stats-number_of_SNPs": 3466189.0,
+                "Bcftools Stats_mqc-generalstats-bcftools_stats-number_of_indels": 515976.0,
+                "Bcftools Stats_mqc-generalstats-bcftools_stats-tstv": 2.16,
+                "Bcftools Stats_mqc-generalstats-bcftools_stats-number_of_MNPs": 60278.0,
+                "Samtools_mqc-generalstats-samtools-error_rate": 0.005299556,
+                "Samtools_mqc-generalstats-samtools-non_primary_alignments": 0.0,
+                "Samtools_mqc-generalstats-samtools-reads_mapped": 312617690.0,
+                "Samtools_mqc-generalstats-samtools-reads_mapped_percent": 95.68062097922534,
+                "Samtools_mqc-generalstats-samtools-reads_properly_paired_percent": 94.73447827010534,
+                "Samtools_mqc-generalstats-samtools-reads_MQ0_percent": 4.525503387861825,
+                "Samtools_mqc-generalstats-samtools-raw_total_sequences": 326730415.0,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 13.951952313826482,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 41.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 100.0,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 0.0,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 326730415.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/scratch/9545b926cfc94c6bb4651c45679bcaca/0/stats"
+    ],
+    "config_analysis_dir": [
+        "stats"
+    ],
+    "config_creation_date": "2020-12-03, 07:02",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/opt/conda/lib/python3.8/site-packages/multiqc/utils",
+    "config_short_version": "1.9",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.9"
+}
